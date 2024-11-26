@@ -1,0 +1,83 @@
+📱 Frontend Structure
+
+1. 📄 Landing Page
+   ├── Overview of the dispute resolution platform
+   ├── Statistics (Total cases, resolved cases, active arbitrators)
+   ├── Connect Wallet Button
+   └── Quick links to Create Case/Join as Arbitrator
+
+2. 📄 Dashboard (After Wallet Connection)
+   ├── User's Active Cases
+   ├── Cases Awaiting Action
+   ├── Total Funds in Escrow
+   └── Quick Action Buttons
+
+3. 📄 Case Creation Page
+   ├── Case Details Form
+   │   ├── Dispute Type Selection
+   │   ├── Description
+   │   ├── Involved Parties (Addresses)
+   │   └── Initial Evidence Upload
+   ├── Escrow Amount Input
+   └── Submit Button
+
+4. 📄 Case Details Page
+   ├── Case Status Banner
+   ├── Case Information
+   │   ├── Case ID
+   │   ├── Creation Date
+   │   ├── Parties Involved
+   │   └── Type of Dispute
+   ├── Evidence Section
+   │   ├── Evidence List
+   │   ├── Evidence Upload Interface
+   │   └── IPFS Links
+   ├── Arbitration Section
+   │   ├── Arbitrator Details
+   │   ├── Current Decision (if any)
+   │   └── Voting History
+   └── Financial Section
+       ├── Escrow Balance
+       ├── Transaction History
+       └── Payment Status
+
+5. 📄 Arbitrator Dashboard
+   ├── Staking Interface
+   │   ├── Current Stake
+   │   ├── Stake More
+   │   └── Withdraw Stake
+   ├── Assigned Cases
+   ├── Case History
+   └── Performance Metrics
+
+6. 📄 Evidence Management Page
+   ├── File Upload Interface
+   ├── IPFS Integration
+   ├── Evidence History
+   └── Document Verification Status
+
+7. 📄 Payment/Escrow Page
+   ├── Deposit Interface
+   ├── Withdrawal Interface
+   ├── Transaction History
+   └── Balance Overview
+
+8. 📄 Profile/Settings
+   ├── User Information
+   ├── Connected Wallet
+   ├── Notification Settings
+   └── Activity History
+
+🎨 Common UI Elements
+├── Navigation Bar
+│   ├── Logo
+│   ├── Main Navigation Links
+│   └── Wallet Connection Status
+├── Footer
+│   ├── Links
+│   ├── Social Media
+│   └── Legal Information
+└── Notifications Panel
+    ├── Case Updates
+    ├── Evidence Submissions
+    └── Arbitration Decisions
